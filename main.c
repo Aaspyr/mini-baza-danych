@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-/*Zad 3
+/*
 Utworzyc strukture i nazwac ja "osoba". Umiescic w niej pola: imie, nazwisko,
 rok_urodzenia, plec. Utworzyc zmienna "osoby", bedacy tablica typu osoba (N elementowa).
 Napisac dwie funkcje: (Odczytaj, Wyswietl) do wprowadzania i wyswietlania
@@ -114,27 +114,6 @@ void szukaj_imie_wiek(tosoba tab[], int n)
 int main(void)
 {
     tosoba tab[N];
-    /*={
-        {
-        "Aa",
-        "Nazwisko",
-        1990,
-        'K'
-    },
-    {
-        "C",
-        "Nazwisko",
-        1999,
-        'K'
-    },
-    {
-        "Ab",
-        "Nazwisko",
-        2001,
-        'K'
-    },
-    };*/
-
     Odczytaj(tab, N);
     Wczytaj (tab, N);
     sortuj_wiek(tab, N);
